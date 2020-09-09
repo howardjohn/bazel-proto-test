@@ -8,7 +8,7 @@ proto_library(
 
 go_proto_library(
     name = "echo_go_proto",
-    importpath = "example.com/repo/foo",
+    importpath = "foo",
     proto = ":echo_proto",
     visibility = ["//visibility:public"],
 )
